@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:orientation="vertical"
+    android:layout_height="fill_parent" android:background="@color/BKWHITE">
+<TextView android:textStyle="bold"   android:autoLink="all" android:layout_height="wrap_content" android:soundEffectsEnabled="true" android:text="@string/title" android:textColor="@color/LTBLUE" android:layout_width="fill_parent"></TextView>
+<EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:autoLink="all"  android:layout_height="200dp">
+    <requestFocus></requestFocus>
+</EditText>
+<Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/speak"></Button>
+<Button android:text="@string/msg" android:layout_height="wrap_content" android:id="@+id/button2" android:layout_width="wrap_content"></Button>
+<Button android:layout_height="wrap_content" android:text="@string/email" android:layout_width="wrap_content" android:id="@+id/button3"></Button>
+
+</TableLayout>

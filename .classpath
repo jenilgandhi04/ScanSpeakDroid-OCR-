@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/google-api-translate-java-0.98-mod.jar"/>
+	<classpathentry kind="lib" path="libs/microsoft-translator-java-api-0.4-mod.jar"/>
+	<classpathentry kind="lib" path="libs/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/jtar-1.0.4.jar"/>
+	<classpathentry kind="src" path="tess-two_src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="com_googlecode_tesseract_android_src"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
